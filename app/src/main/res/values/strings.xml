@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">quatro_telas</string>
+    <string name="material_design">Material Design UI Kit</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of\nthe printing and typesetting industry.</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
 </resources>
