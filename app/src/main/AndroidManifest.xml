@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Quatro_telas">
-        <activity android:name=".tela2"></activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Tela4"></activity>
+        <activity android:name=".Tela3" />
+        <activity android:name=".tela2" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".Tela1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

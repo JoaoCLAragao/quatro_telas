@@ -20,4 +20,15 @@
     <string name="gerald">Gerald</string>
     <string name="walters">Walters</string>
     <string name="ellis">Ellis</string>
+    <string name="radio">Radio</string>
+    <string name="profile">Profile</string>
+    <string name="john_bergen">John Bergen</string>
+    <string name="new_york_ny">New York, NY</string>
+    <string name="about">About</string>
+    <string name="lorem_ipsum_gigante">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="connections">Connections</string>
+    <string name="connect">Connect</string>
+    <string name="feed">Feed</string>
+    <string name="jordan_robinson">Jordan Robinson</string>
+    <string name="today_1_45_pm">Today, 1:45 PM</string>
 </resources>

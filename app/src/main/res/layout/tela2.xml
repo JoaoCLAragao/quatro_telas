@@ -25,7 +25,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="45dp"
         android:fontFamily="@font/roboto_medium"
-        android:text="Radio"
+        android:text="@string/radio"
         android:textAllCaps="true"
         android:textColor="@color/white"
         android:textSize="12sp" />
