@@ -45,6 +45,7 @@
         android:textSize="16sp" />
 
     <LinearLayout
+        android:id="@+id/l1"
         android:layout_width="280dp"
         android:layout_height="227dp"
         android:layout_centerHorizontal="true"
@@ -96,8 +97,9 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:layout_height="match_parent">
+                android:orientation="horizontal">
 
                 <EditText
                     android:layout_width="match_parent"
@@ -108,11 +110,12 @@
                     android:paddingStart="20dp" />
 
                 <ImageView
-                    android:layout_width=""
-                    android:layout_height=""/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|end"
+                    android:background="@drawable/shape" />
 
             </LinearLayout>
-
 
 
             <View
@@ -122,8 +125,9 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:layout_height="match_parent">
+                android:orientation="horizontal">
 
                 <EditText
                     android:layout_width="match_parent"
@@ -134,17 +138,38 @@
                     android:paddingStart="20dp" />
 
                 <ImageView
-                    android:layout_width=""
-                    android:layout_height=""/>
-
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|end"
+                    android:background="@drawable/shape" />
             </LinearLayout>
-
-
 
         </LinearLayout>
 
-
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/l1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/radius_btn"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/sign_up"
+        android:textColor="@color/coral" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_below="@id/btn_sign_up"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_light"
+        android:text="@string/already_have_an_account_log_in"/>
 
 
 </RelativeLayout>
