@@ -160,6 +160,7 @@
         android:text="@string/sign_up"
         android:textColor="@color/coral" />
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="14dp"

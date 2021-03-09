@@ -9,4 +9,15 @@
     <string name="country">Country</string>
     <string name="city">City</string>
     <string name="already_have_an_account_log_in">ALREADY HAVE AN ACCOUNT? LOG IN!</string>
+    <string name="brian_tucker">Brian Tucker</string>
+    <string name="dennis_spencer">Dennis Spencer</string>
+    <string name="daniel_grant">Daniel Grant</string>
+    <string name="heather_jacobs">Heather Jacobs</string>
+    <string name="brian">Brian</string>
+    <string name="dennis">Dennis</string>
+    <string name="daniel">Daniel</string>
+    <string name="heather">Heather</string>
+    <string name="gerald">Gerald</string>
+    <string name="walters">Walters</string>
+    <string name="ellis">Ellis</string>
 </resources>
